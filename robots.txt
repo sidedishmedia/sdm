@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sidedishmedia.co.uk/sitemap.xml
