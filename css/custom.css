@@ -1,0 +1,24 @@
+.slide-sub-title {
+	font-size:25px;
+}
+.testimonials-section .clients-holder .client-item {
+	width:20%;
+
+}
+.testimonials-section .clients-holder .client-item img {
+    width: 130px;
+    max-width: 150px;
+ }
+.modal-form input[type=email], .modal-form input[type=tel], .modal-form textarea{
+    background: #fafcfc;
+    -webkit-box-shadow: inset 1px 1px 1px rgba(207,207,207,.5);
+    box-shadow: inset 1px 1px 1px rgba(207,207,207,.5);
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+    color: #ced0d2;
+    font-size: 1.5em;
+    width: 100%;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 12px;
+}
