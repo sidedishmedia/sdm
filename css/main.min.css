@@ -6628,7 +6628,10 @@ input[type=submit].button-default.big-button:hover {
     font-weight: 700;
     margin-bottom: 30px
 }
-
+.head-slide-holder .slide-title h1 {
+    font-size: inherit;
+    margin-bottom: 0;
+}
 .head-slide-holder .slide-text {
     font-size: 2.1em;
     margin-bottom: 40px
