@@ -6353,7 +6353,7 @@ body {
     min-width: 320px;
     position: relative;
     line-height: 1.65;
-    font-family: Raleway, "Open Sans", sans-serif;
+    font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
     color: #3f4b57;
     background: url(../img/bg.png), #fbffff;
@@ -6550,7 +6550,17 @@ input[type=submit].button-default.big-button:hover {
     font-weight: 700;
     margin-left: 30px
 }
-
+.header-holder .login-holder a.social:before {
+    content:'';
+    background: url(../img/instagram.svg) no-repeat;
+    display:inline-block;
+    width:20px;
+    height:20px;
+    background-size:contain;
+    position:auto;
+    margin-right:10px;
+    top:auto;
+}
 .header-holder .main-nav {
     padding-top: 15px
 }
@@ -7404,7 +7414,15 @@ input[type=submit].button-default.big-button:hover {
     background: url(../img/lang.svg) no-repeat;
     left: 0
 }
-
+.main-footer .lang a.instagram:before {
+    content: '';
+    position: absolute;
+    width: 17px;
+    height: 19px;
+    background: url(../img/instagram.svg) no-repeat;
+    left: 0;
+    background-size:contain;
+}
 .main-footer .lang a:hover {
     color: inherit
 }
@@ -7856,4 +7874,17 @@ input[type=submit].button-default.big-button:hover {
     #myNavbar {
         display: none
     }
+}
+@media (min-width: 991px) {
+.header-holder .login-holder a.social:before {
+    content:'';
+    background: url(../img/instagram-w.svg) no-repeat;
+    display:inline-block;
+    width:20px;
+    height:20px;
+    background-size:contain;
+    position:absolute;
+    right:93%;
+    top:0;
+}
 }
