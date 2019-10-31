@@ -6353,7 +6353,7 @@ body {
     min-width: 320px;
     position: relative;
     line-height: 1.65;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Signika', sans-serif;
     overflow-x: hidden;
     color: #3f4b57;
     background: url(../img/bg.png), #fbffff;
@@ -6641,6 +6641,7 @@ input[type=submit].button-default.big-button:hover {
 .head-slide-holder .slide-title h1 {
     font-size: inherit;
     margin-bottom: 0;
+    font-family: 'Shrikhand', cursive;
 }
 .head-slide-holder .slide-text {
     font-size: 2.1em;
@@ -6774,7 +6775,8 @@ input[type=submit].button-default.big-button:hover {
 .default-section h2 {
     text-align: center;
     font-size: 3.3em;
-    font-weight: 700
+    font-weight: 700;
+    font-family: 'Shrikhand', cursive;
 }
 
 .default-section .section-text {
