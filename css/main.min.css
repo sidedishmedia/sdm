@@ -3881,6 +3881,7 @@ Custom
 .slide-sub-title {
 	font-size:25px;
     font-family: "DroidSerif";
+    font-style:italic;
 }
 .modal-form input[type=email], .modal-form input[type=tel], .modal-form textarea{
     background: #fafcfc;
@@ -6365,7 +6366,7 @@ body {
     min-width: 320px;
     position: relative;
     line-height: 1.65;
-    font-family: 'Signika', sans-serif;
+    font-family: 'Cabin', sans-serif;
     overflow-x: hidden;
     color: #3f4b57;
     background: url(../img/bg.png), #fbffff;
@@ -6653,7 +6654,8 @@ input[type=submit].button-default.big-button:hover {
 .head-slide-holder .slide-title h1 {
     font-size: inherit;
     margin-bottom: 0;
-    font-family: 'Shrikhand', cursive;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing:-1px !Important;
 }
 .head-slide-holder .slide-text {
     font-size: 2.1em;
@@ -6767,7 +6769,7 @@ input[type=submit].button-default.big-button:hover {
     color: #61788e;
     max-width: 160px;
     margin: 0 40px 40px;
-    font-family: 'Signika', sans-serif;
+    font-family: 'Cabin', sans-serif;
 }
 
 .numbers-section .numbers-item-number {
@@ -6788,11 +6790,12 @@ input[type=submit].button-default.big-button:hover {
     text-align: center;
     font-size: 3.3em;
     font-weight: 700;
-    font-family: 'Shrikhand', cursive;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: -1.2px;
 }
 
 .default-section .section-text {
-    font-size: 2.8em;
+    font-size: 2em;
     font-weight: 500;
     max-width: 1070px;
     padding: 0 20px;
@@ -6846,7 +6849,8 @@ input[type=submit].button-default.big-button:hover {
 
 .driwemore-section .drivemore-item-title {
     font-size: 3.3em;
-    font-weight: 700
+    font-weight: 700;
+    font-family:"DroidSerif";
 }
 
 .driwemore-section .drivemore-item-img {
@@ -7100,7 +7104,8 @@ input[type=submit].button-default.big-button:hover {
 .stories-section .stori-item .stori-content h3 {
     font-size: 2.5em;
     font-weight: 700;
-    margin: 5px 0 20px
+    margin: 5px 0 20px;
+    font-family: "DroidSerif";
 }
 
 .stories-section .stori-item .stori-content p {
@@ -7148,7 +7153,8 @@ input[type=submit].button-default.big-button:hover {
 .stories-section .stories-getmore .getmore-text {
     font-weight: 500;
     font-size: 2.8em;
-    margin: 0 30px
+    margin: 0 30px;
+    font-family:"DroidSerif";
 }
 
 .stories-section .stories-getmore .button-default {
@@ -7348,7 +7354,9 @@ input[type=submit].button-default.big-button:hover {
 
 .contact-section .lets-work .lets-work-title {
     font-size: 3.3em;
-    font-weight: 700
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing:-1.2px;
 }
 
 .contact-section .lets-work p {
