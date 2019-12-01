@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-Disallow: /staging/
 Sitemap: https://sidedishmedia.co.uk/sitemap.xml
