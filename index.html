@@ -678,12 +678,14 @@ conversion, making sure that every penny invested is a penny well spent.”</div
 		<div class="modal-form-holder">
 			<div class="form-title">Yes, I want my free consultation!</div>
 			<div class="form-subtitle">Your details are 100% safe and secure</div>
-			<form name="contact" method="POST" data-netlify="true">
-				<input type="text" name="name" placeholder="Your name...">
-				<input type="email" name="email" placeholder="Email…">
-				<input type="tel" name="tel" placeholder="Phone…">
-				<input type="text" name="bname" placeholder="Business name…">
-				<textarea name="msg" placeholder="Message"></textarea>
+			<form class="needs-validation" name="contact" method="POST" data-netlify="true" novalidate>
+				<input class="form-control" type="text" name="name" placeholder="Your name..." required="">
+				<div class="invalid-feedback">Missing name</div>
+				<input class="form-control" type="email" name="email" placeholder="Email…" required="">
+				<div class="invalid-feedback">Missing Email</div>
+				<input class="form-control" type="tel" name="tel" placeholder="Phone…">
+				<input class="form-control" type="text" name="bname" placeholder="Business name…">
+				<textarea class="form-control" name="msg" placeholder="Message"></textarea>
 				<input class="button-default" type="submit" name="submit" value="Call me!">
 			</form>
 		</div>
@@ -691,6 +693,7 @@ conversion, making sure that every penny invested is a penny well spent.”</div
 
 	<script src="js/scripts.min.js"></script>
 	<script src="https://getbootstrap.com/2.3.2/assets/js/bootstrap-scrollspy.js"></script>
+	<script src="js/validate.js"></script>
 <script type="text/javascript">
 	// Scroll function courtesy of Scott Dowding; http://stackoverflow.com/questions/487073/check-if-element-is-visible-after-scrolling
 
