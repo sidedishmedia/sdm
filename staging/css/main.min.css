@@ -7666,6 +7666,35 @@ section.contact-info {
 .form-control {
     border:1px solid #f7f7f7;
 }
+/**************
+Blog Article
+***************/
+section.article-container {
+    background: -webkit-linear-gradient(108.72deg, #C5EEF7 0, #EAFAFE 100%);
+    background: -o-linear-gradient(108.72deg, #C5EEF7 0, #EAFAFE 100%);
+    background: linear-gradient(341.28deg, #C5EEF7 0, #EAFAFE 100%);
+}
+.article-container article {
+    max-width:70%;
+    margin:0 auto;
+    background:#fff;
+    padding:60px;
+}
+.article-container article .article-title h1 {
+    font-size:45px;
+    line-height:1.3em;
+    text-align:center;
+}
+.article-container article h2 {
+    margin-bottom:10px !important;
+    margin-top:40px;
+}
+.article-container article .article-title {
+     margin-bottom:40px;
+}
+/*************
+Responsive
+**************/
 @media (max-width:3656px) and (min-width:1600px) {
     .masterclass-card-holder {
         max-width: 1000px
