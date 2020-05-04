@@ -7725,6 +7725,9 @@ section.article-container {
 section.article-container a{
     color:#007bff;
 }
+section.article-container a.button-default {
+    color:#fff;
+}
 .article-container article {
     max-width:70%;
     margin:0 auto;
