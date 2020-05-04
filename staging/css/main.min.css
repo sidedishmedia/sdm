@@ -7654,6 +7654,7 @@ section.contact-info {
     padding:40px;
     display:block;
     transition:all .4s ease;
+    border-radius: 10px;
 }
 .home-blog .blog-article-container .blog-meta {
     font-size:12px;
@@ -7720,6 +7721,9 @@ section.article-container {
     background: -webkit-linear-gradient(108.72deg, #C5EEF7 0, #EAFAFE 100%);
     background: -o-linear-gradient(108.72deg, #C5EEF7 0, #EAFAFE 100%);
     background: linear-gradient(341.28deg, #C5EEF7 0, #EAFAFE 100%);
+}
+section.article-container a{
+    color:#007bff;
 }
 .article-container article {
     max-width:70%;
