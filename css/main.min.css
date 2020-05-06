@@ -8130,6 +8130,18 @@ Responsive
     #myNavbar {
         display: none
     }
+            .article-container article {
+    max-width:85%;
+    margin:0 auto;
+    background:#fff;
+    padding:20px;
+}
+.article-container article .article-title h1 {
+    font-size:27px;
+}
+.home-blog .blog-article-container {
+    padding:40px 20px;
+}
 }
 @media (min-width: 991px) {
 .header-holder .login-holder a.social:before {
