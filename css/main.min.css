@@ -6803,10 +6803,14 @@ input[type=submit].button-default.big-button:hover {
 }
 
 .default-section {
+    box-sizing: content-box;
     padding: 60px 0;
     margin-bottom: 14em;
     max-width:1280px;
     margin:0 auto;
+    display:block;
+    clear:both;
+    overflow:hidden;
 }
 .section-heading {
     text-align: center;
@@ -7648,13 +7652,17 @@ section.contact-info {
 }
 .home-blog .blog-article-container {
     box-sizing: content-box;
-    max-width:700px;
-    margin:60px auto;
+    max-width: 42%;
+    margin: 60px 2%;
     background:#fff;
-    padding:40px;
-    display:block;
+    padding: 30px;
+    display:inline-block;
     transition:all .4s ease;
     border-radius: 10px;
+    float:left;
+}
+.home-blog .blog-article-container:nth-child(3) {
+    margin-right:0;
 }
 .home-blog .blog-article-container .blog-meta {
     font-size:12px;
@@ -8120,6 +8128,13 @@ Responsive
 .why-g-ads ul li {
     padding-left:0;
 }
+.home-blog .blog-article-container {
+    margin: 30px auto;
+    max-width: 100%;
+    padding:40px 20px;
+    width: 90%;
+    display: block;
+}
 }
 
 @media (max-width:575.98px) {
@@ -8140,7 +8155,11 @@ Responsive
     font-size:27px;
 }
 .home-blog .blog-article-container {
+    margin: 30px auto;
+    max-width: 100%;
     padding:40px 20px;
+    width: 90%;
+    display: block;
 }
 }
 @media (min-width: 991px) {
