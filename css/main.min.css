@@ -7770,6 +7770,28 @@ section.article-container a.button-default {
     margin-top:50px;
     display:block;
 }
+/***** Social Media Marketing ****/
+.text-center {
+    text-align:center;
+}
+.strategy {
+    text-align:center;
+    margin-top:40px;
+}
+.strategy h3 {
+    font-size:18px;
+}
+.strategy .strategy-icon img {
+    max-width:50px;
+}
+.strategy .col-md-4 {
+    margin-bottom:20px;
+}
+.strategy p {
+    font-weight:300;
+    line-height:1.8em;
+    font-size:1.8em;
+}
 /************
 Responsive
 ************/
