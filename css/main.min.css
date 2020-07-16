@@ -6605,7 +6605,7 @@ input[type=submit].button-default.big-button:hover {
     display:block;
     height:1px;
     width:100%;
-    background:#000;
+    background:#66798b;
     left:0;
     bottom:0;
     transition:all .5s ease;
