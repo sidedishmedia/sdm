@@ -6595,7 +6595,23 @@ input[type=submit].button-default.big-button:hover {
     color: #66798b;
     text-shadow: 2px 2px 3px rgba(124, 154, 156, .18);
     margin-left: 30px;
-    text-decoration: none
+    text-decoration: none;
+    position:relative;
+    transition:all .5s ease;
+}
+.header-holder .main-nav a.underline:after {
+    content:'';
+    position:absolute;
+    display:block;
+    height:1px;
+    width:100%;
+    background:#000;
+    left:0;
+    bottom:0;
+    transition:all .5s ease;
+}
+.header-holder .main-nav a.underline:hover:after {
+    display:none;
 }
 
 .header-holder .main-nav a.active,
@@ -8164,6 +8180,9 @@ Responsive
 }
 .large-font {
     font-size: 1.7em;
+}
+.header-holder .main-nav a.underline:after {
+    display:none;
 }
 }
 
