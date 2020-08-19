@@ -6556,7 +6556,16 @@ input[type=submit].button-default.big-button:hover {
     -ms-flex-pack: justify;
     justify-content: space-between
 }
-
+.notice-bar {
+    background: -webkit-linear-gradient(108.72deg, #C24C76 0, #E85D74 100%);
+    background: -o-linear-gradient(108.72deg, #C24C76 0, #E85D74 100%);
+    background: linear-gradient(341.28deg, #C24C76 0, #E85D74 100%);
+    padding:10px;
+    text-align:center;
+    font-size:16px;
+    color:#fff;
+    font-weight:700;
+}
 .header-holder .logo img {
     max-width: 96px
 }
@@ -7964,7 +7973,7 @@ Responsive
         height: 30px;
         position: fixed;
         right: 20px;
-        top: 20px;
+        top: 100px;
         background: url(../img/nav.svg) no-repeat;
         -webkit-background-size: 100% auto;
         background-size: 100% auto;
