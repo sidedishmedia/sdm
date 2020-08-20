@@ -6566,6 +6566,9 @@ input[type=submit].button-default.big-button:hover {
     color:#fff;
     font-weight:700;
 }
+.notice-bar:hover {
+    cursor: pointer;
+}
 .header-holder .logo img {
     max-width: 96px
 }
