@@ -7684,10 +7684,14 @@ section.contact-info {
 .home-blog .blog-article-container:hover .blog-title h3, .home-blog .blog-article-container:hover .blog-meta  {
     color:#fff;
 }
+.blog-container {
+    display:flex;
+}
 .home-blog .blog-article-container {
+    
     box-sizing: content-box;
-    max-width: 42%;
-    margin: 60px 2%;
+    width:calc(33% - 50px);;
+    margin: 60px 10px;
     background:#fff;
     padding: 30px;
     display:inline-block;
@@ -8080,6 +8084,9 @@ Responsive
     }
     .testimonials-section .testimonials-holder {
         padding:0;
+    }
+    .blog-container {
+        flex-wrap:wrap;
     }
 }
 
