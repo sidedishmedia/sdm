@@ -7904,6 +7904,9 @@ section.article-container a.button-default {
 .small-cta.open-modal {
     cursor:pointer;
 }
+.article-content ul li {
+    font-size:16px;
+}
 /************
 Responsive
 ************/
